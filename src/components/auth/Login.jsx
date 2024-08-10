@@ -58,7 +58,7 @@ function Login() {
           className="w-1/2 border border-gray-200 rounded-md p-4 my-10"
           onSubmit={handleSubmit}
         >
-          <h1 className="font-bold text-xl mb-5">Login</h1>
+          <h1 className="font-bold text-xl mb-5">Job Seeker Login</h1>
 
           {/* Email */}
           <div className="my-2">
