@@ -9,8 +9,8 @@ import Jobs from './components/home/Jobs'
 import LoginRecruiter from './components/auth/LoginRecruiter'
 import SignupRecruiter from './components/auth/SignupRecruiter'
 import Browse from './components/browse/Browse'
-import RecruiterDashboard from './components/browse/RecruiterDashboard'
 import Profile from './components/profile/Profile'
+import RecruiterCompanies from './components/recruiter/RecruiterCompanies'
 
 function App() {
  
@@ -53,8 +53,8 @@ function App() {
       element:<Browse/>
     },
     {
-      path:'/recruiter-dashboard',
-      element:<RecruiterDashboard/>
+      path:'/recruiter/companies',
+      element:<RecruiterCompanies/>
     },
     {
       path:'/profile',

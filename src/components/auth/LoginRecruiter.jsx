@@ -37,7 +37,7 @@ function LoginRecruiter() {
       console.log(response.data);
       // Assuming successful login returns a token or user data
       // localStorage.setItem("token", response.data.token);
-      navigate("/recruiter-dashboard"); // Redirect to recruiter dashboard
+      navigate("/recruiter/companies"); // Redirect to recruiter dashboard
     } catch (err) {
       if (err.response) {
         setError(err.response.data.message || "An error occurred");
